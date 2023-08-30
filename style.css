@@ -14,7 +14,20 @@ body {
     padding: 0;
 
 }
-
-.principal {background image: url(img/Background.png);
+.principal{
+    background-image: url(img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 
 }
+
+   .contain {
+    height: 100vh;
+   }
+
+  .container_botao {
+  background-color: var(--botao-azul);
+  border-radius: 5px;
+  
+}
+
